@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Typography,
-  Paper,
-  Icon,
-  Box,
-  Button,
-} from "@material-ui/core";
+import { Container, Typography, Paper, Box, Button } from "@material-ui/core";
 
 export default function UtilityFunction() {
   return (
@@ -27,6 +20,9 @@ export default function UtilityFunction() {
               nesciunt odio autem debitis quasi libero. A dignissimos id fugit
               natus
             </Typography>
+            <Button color="primary" variant="outlined">
+              Portfolio
+            </Button>
           </Paper>
         </Container>
       </div>

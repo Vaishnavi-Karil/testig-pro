@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export default function Hooksone() {
   const [count, countState] = useState(0);
-  useEffect(() => {
-    console.warn(count);
-  }, [count === 5]);
+  // useEffect(() => {
+  //   console.warn(count);
+  // }, [count == 5]);
   //   useEffect always takes function
 
   function fun() {
@@ -13,7 +13,7 @@ export default function Hooksone() {
   return (
     <div>
       <h1> {count}</h1>
-      <button onClick={fun}>click me</button>
+      <button onClick={fun(1)}>click me</button>
     </div>
   );
 }
